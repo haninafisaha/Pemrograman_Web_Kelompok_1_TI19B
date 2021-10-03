@@ -15,34 +15,44 @@
   }
   </style>
 </head>
+  
 <body>
 
 <div id="demo" class="carousel slide" data-ride="carousel">
+<center>
   <ul class="carousel-indicators">
     <li data-target="#demo" data-slide-to="0" class="active"></li>
     <li data-target="#demo" data-slide-to="1"></li>
     <li data-target="#demo" data-slide-to="2"></li>
+    <li data-target="#demo" data-slide-to="3"></li>
   </ul>
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src="la.jpg" alt="Los Angeles" width="1100" height="500">
+      <img src="task.jpg" alt="Task" width="1100" height="500">
       <div class="carousel-caption">
-        <h3>Los Angeles</h3>
-        <p>We had such a great time in LA!</p>
+        <h3>TO-DO LIST</h3>
+        <p>Cek dan Kerjakan Task Harian Anda</p>
       </div>   
     </div>
     <div class="carousel-item">
-      <img src="chicago.jpg" alt="Chicago" width="1100" height="500">
+      <img src="menanam.jpg" alt="Chicago" width="1100" height="500">
       <div class="carousel-caption">
         <h3>Chicago</h3>
         <p>Thank you, Chicago!</p>
       </div>   
     </div>
     <div class="carousel-item">
-      <img src="ny.jpg" alt="New York" width="1100" height="500">
+      <img src="tanaman.jpg" alt="New York" width="1100" height="500">
       <div class="carousel-caption">
         <h3>New York</h3>
         <p>We love the Big Apple!</p>
+      </div>   
+    </div>
+    <div class="carousel-item">
+      <img src="mengangkut.jpg" alt="Chicago" width="1100" height="500">
+      <div class="carousel-caption">
+        <h3>Chicago</h3>
+        <p>Thank you, Chicago!</p>
       </div>   
     </div>
   </div>
@@ -52,29 +62,67 @@
   <a class="carousel-control-next" href="#demo" data-slide="next">
     <span class="carousel-control-next-icon"></span>
   </a>
+</center>
 </div>
 
 
-<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
-  <a class="navbar-brand" href="#">Navbar</a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <div class="collapse navbar-collapse" id="collapsibleNavbar">
-    <ul class="navbar-nav">
-      <li class="nav-item">
-        <a class="nav-link" href="#">Link</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Link</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Link</a>
-      </li>    
-    </ul>
-  </div>  
-</nav>
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark justify-content-center fixed-top">
+  <!-- Brand -->
+  <a class="navbar-brand" href="#">HOME</a>
 
+  <!-- Links -->
+  <ul class="navbar-nav">
+  <!-- Dropdown -->
+    <li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+        INFORMATION
+      </a>
+      <div class="dropdown-menu">
+        <a class="dropdown-item" href="#">INFORMASI PASAR</a>
+        <a class="dropdown-item" href="#">MANAJEMEN PENYAKIT DAN HAMA</a>
+        <a class="dropdown-item" href="#">INFORMASI KETERSEDIAAN</a>
+      </div>
+    </li>
+    <li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+        OUR TASK
+      </a>
+      <div class="dropdown-menu">
+        <a class="dropdown-item" href="#">TASK</a>
+        <a class="dropdown-item" href="#">TO-DO LIST</a>
+        <a class="dropdown-item" href="#">SUBMITTED TASK DATA</a>
+      </div>
+    </li>
+  <!-- Brand -->
+    <li class="nav-item">
+      <a class="nav-link" href="#">BLOG</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#">DOCUMENTATION</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#">ABOUT US</a>
+    </li>
+  <!-- Dropdown -->
+    <li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+        DOWNLOAD
+      </a>
+      <div class="dropdown-menu">
+        <a class="dropdown-item" href="#">MANUAL BOOK</a>
+      </div>
+    </li>
+  <!-- Search Button -->
+    <li justify-content-right>
+    <form class="form-inline" action="/action_page.php">
+      <input class="form-control mr-sm-2" type="text" placeholder="Search">
+      <button class="btn btn-success" type="submit">Search</button>
+    </form>
+    </li>
+  </ul>
+</nav>
+<br>
+  
 <div class="container" style="margin-top:30px">
   <div class="row">
     <div class="col-sm-4">
@@ -116,8 +164,11 @@
   </div>
 </div>
 
-<div class="jumbotron text-center" style="margin-bottom:0">
-  <p>Footer</p>
+<div class="jumbotron text-center" style="margin-bottom:0" bg="dark">
+  <p>MATA KULIAH PEMROGRAMAN WEB</p>
+  <p>KELOMPOK 1</p>
+  <p>TEKNIK INFORMATIKA 2019 B</p>
+  <p>2019</p>
 </div>
 
 </body>
