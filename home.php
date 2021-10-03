@@ -37,22 +37,22 @@
     <div class="carousel-item">
       <img src="menanam.jpg" alt="Chicago" width="1100" height="500">
       <div class="carousel-caption">
-        <h3>Chicago</h3>
-        <p>Thank you, Chicago!</p>
+        <h3>MANAGEMENT PENYAKIT DAN HAMA</h3>
+        <p>Disediakan Cara Mengatasi Penyakit dan Hama</p>
       </div>   
     </div>
     <div class="carousel-item">
       <img src="tanaman.jpg" alt="New York" width="1100" height="500">
       <div class="carousel-caption">
-        <h3>New York</h3>
-        <p>We love the Big Apple!</p>
+        <h3>INFORMASI KETERSEDIAAN</h3>
+        <p>Berikut Ini Merupakan Informasi Ketersediaan</p>
       </div>   
     </div>
     <div class="carousel-item">
       <img src="mengangkut.jpg" alt="Chicago" width="1100" height="500">
       <div class="carousel-caption">
-        <h3>Chicago</h3>
-        <p>Thank you, Chicago!</p>
+        <h3>INFORMASI PASAR</h3>
+        <p>Berikut Ini Merupakan Informasi Pasar untuk Saat Ini</p>
       </div>   
     </div>
   </div>
@@ -126,24 +126,29 @@
 <div class="container" style="margin-top:30px">
   <div class="row">
     <div class="col-sm-4">
-      <h2>About Me</h2>
-      <h5>Photo of me:</h5>
-      <div class="fakeimg">Fake Image</div>
-      <p>Some text about me in culpa qui officia deserunt mollit anim..</p>
+      <h2>About Us</h2>
+      <h5>Photo of Us:</h5>
+      <img src="tib.jpeg" alt="Tib" width="350" height="350">
+      <center><p><strong>TEKNIK INFORMATIKA 2019 B</strong></p></center>
+      <p>PRAYOGI KARDANI (19051204055)</p>
+      <p>MOCH. ABHIEGAIL ARGO P (19051204066)</p>
+      <p>HANI NAFISAH AMALIYA (19051204070)</p>
+      <p>MUHAMMAD ANDIKA PUTRA Y (19051204105)</p>
+  
       <h3>Some Links</h3>
-      <p>Lorem ipsum dolor sit ame.</p>
+      <p>Kunjungi halaman-halaman di bawah ini :</p>
       <ul class="nav nav-pills flex-column">
         <li class="nav-item">
-          <a class="nav-link active" href="#">Active</a>
+          <a class="nav-link active" href="home.php">HOME</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Link</a>
+          <a class="nav-link" href="https://www.pertanian.go.id/">WEB KEMENTERIAN PERTANIAN RI</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Link</a>
+          <a class="nav-link" href="https://twitter.com/kementan/">TWITTER KEMENTERIAN PERTANIAN RI</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link disabled" href="#">Disabled</a>
+          <a class="nav-link" href="https://www.instagram.com/kementerianpertanian/">INSTAGRAM KEMENTERIAN PERTANIAN RI</a>
         </li>
       </ul>
       <hr class="d-sm-none">
