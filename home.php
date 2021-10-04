@@ -30,29 +30,29 @@
     <div class="carousel-item active">
       <img src="task.jpg" alt="Task" width="1100" height="500">
       <div class="carousel-caption">
-        <h3>TO-DO LIST</h3>
-        <p>Cek dan Kerjakan Task Harian Anda</p>
+        <h3><strong>TO-DO LIST</strong></h3>
+        <p><strong>Cek dan Kerjakan Task Harian Anda</strong></p>
       </div>   
     </div>
     <div class="carousel-item">
-      <img src="menanam.jpg" alt="Chicago" width="1100" height="500">
+      <img src="menanam.jpg" alt="Menanam" width="1100" height="500">
       <div class="carousel-caption">
-        <h3>MANAGEMENT PENYAKIT DAN HAMA</h3>
-        <p>Disediakan Cara Mengatasi Penyakit dan Hama</p>
+        <h3><strong>MANAGEMENT PENYAKIT DAN HAMA</strong></h3>
+        <p><strong>Disediakan Cara Mengatasi Penyakit dan Hama</strong></p>
       </div>   
     </div>
     <div class="carousel-item">
-      <img src="tanaman.jpg" alt="New York" width="1100" height="500">
+      <img src="tanaman.png" alt="Tanaman" width="1100" height="500">
       <div class="carousel-caption">
-        <h3>INFORMASI KETERSEDIAAN</h3>
-        <p>Berikut Ini Merupakan Informasi Ketersediaan</p>
+        <h3><strong>INFORMASI KETERSEDIAAN</strong></h3>
+        <p><strong>Berikut Ini Merupakan Informasi Ketersediaan</strong></p>
       </div>   
     </div>
     <div class="carousel-item">
-      <img src="mengangkut.jpg" alt="Chicago" width="1100" height="500">
+      <img src="mengangkut.jpg" alt="Mengangkut" width="1100" height="500">
       <div class="carousel-caption">
-        <h3>INFORMASI PASAR</h3>
-        <p>Berikut Ini Merupakan Informasi Pasar untuk Saat Ini</p>
+        <h3><strong>INFORMASI PASAR</strong></h3>
+        <p><strong>Berikut Ini Merupakan Informasi Pasar untuk Saat Ini</strong></p>
       </div>   
     </div>
   </div>
@@ -135,8 +135,30 @@
       <p>HANI NAFISAH AMALIYA (19051204070)</p>
       <p>MUHAMMAD ANDIKA PUTRA Y (19051204105)</p>
   
-      <h3>Some Links</h3>
-      <p>Kunjungi halaman-halaman di bawah ini :</p>
+      <script> 
+        $(document).ready(function(){
+          $("#flip").click(function(){
+            $("#panel").slideDown("slow");
+          });
+        });
+      </script>
+      <style> 
+      #panel, #flip {
+        padding: 5px;
+        text-align: center;
+        background-color: #e5eecc;
+        border: solid 1px #c3c3c3;
+      }
+
+      #panel {
+        padding: 50px;
+        display: none;
+      }
+      </style>
+
+ 
+      <div id="flip"><button type="button" class="btn btn-link"><h3>Some Links</h3></button></div>
+      <div id="panel"><p>Kunjungi halaman-halaman di bawah ini :</p>
       <ul class="nav nav-pills flex-column">
         <li class="nav-item">
           <a class="nav-link active" href="home.php">HOME</a>
@@ -151,17 +173,17 @@
           <a class="nav-link" href="https://www.instagram.com/kementerianpertanian/">INSTAGRAM KEMENTERIAN PERTANIAN RI</a>
         </li>
       </ul>
-      <hr class="d-sm-none">
+      <hr class="d-sm-none"></div>
     </div>
     <div class="col-sm-8">
-      <h2>TITLE HEADING</h2>
-      <h5>Title description, Dec 7, 2017</h5>
+      <h2>BERITA TERKINI</h2>
+      <h5>Dipublikasikan pada, Oct 4, 2021</h5>
       <div class="fakeimg">Fake Image</div>
       <p>Some text..</p>
       <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
       <br>
-      <h2>TITLE HEADING</h2>
-      <h5>Title description, Sep 2, 2017</h5>
+      <h2>INFORMASI PERTANIAN</h2>
+      <h5>Dipublikasikan pada, Oct 4, 2021</h5>
       <div class="fakeimg">Fake Image</div>
       <p>Some text..</p>
       <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
@@ -169,11 +191,11 @@
   </div>
 </div>
 
-<div class="jumbotron text-center" style="margin-bottom:0" bg="dark">
-  <p>MATA KULIAH PEMROGRAMAN WEB</p>
-  <p>KELOMPOK 1</p>
-  <p>TEKNIK INFORMATIKA 2019 B</p>
-  <p>2019</p>
+<div class="jumbotron text-center" style="margin-top:30px">
+  <p><strong>MATA KULIAH PEMROGRAMAN WEB</strong></p>
+  <p><strong>KELOMPOK 1</strong></p>
+  <p><strong>TEKNIK INFORMATIKA 2019 B</strong></p>
+  <p><strong>2019</strong></p>
 </div>
 
 </body>
