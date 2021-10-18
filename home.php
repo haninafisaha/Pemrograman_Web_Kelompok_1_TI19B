@@ -28,28 +28,28 @@
   </ul>
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src="task.jpg" alt="Task" width="1100" height="500">
+      <img src="<?php echo base_url() ?>assets/images/task.jpg" alt="Task" width="1100" height="500">
       <div class="carousel-caption">
         <h3><strong>TO-DO LIST</strong></h3>
         <p><strong>Cek dan Kerjakan Task Harian Anda</strong></p>
       </div>   
     </div>
     <div class="carousel-item">
-      <img src="menanam.jpg" alt="Menanam" width="1100" height="500">
+      <img src="<?php echo base_url() ?>assets/images/menanam.jpg" alt="Menanam" width="1100" height="500">
       <div class="carousel-caption">
         <h3><strong>MANAGEMENT PENYAKIT DAN HAMA</strong></h3>
         <p><strong>Disediakan Cara Mengatasi Penyakit dan Hama</strong></p>
       </div>   
     </div>
     <div class="carousel-item">
-      <img src="tanaman.png" alt="Tanaman" width="1100" height="500">
+      <img src="<?php echo base_url() ?>assets/images/tanaman.png" alt="Tanaman" width="1100" height="500">
       <div class="carousel-caption">
         <h3><strong>INFORMASI KETERSEDIAAN</strong></h3>
         <p><strong>Berikut Ini Merupakan Informasi Ketersediaan</strong></p>
       </div>   
     </div>
     <div class="carousel-item">
-      <img src="mengangkut.jpg" alt="Mengangkut" width="1100" height="500">
+      <img src="<?php echo base_url() ?>assets/images/mengangkut.jpg" alt="Mengangkut" width="1100" height="500">
       <div class="carousel-caption">
         <h3><strong>INFORMASI PASAR</strong></h3>
         <p><strong>Berikut Ini Merupakan Informasi Pasar untuk Saat Ini</strong></p>
@@ -68,7 +68,7 @@
 
 <nav class="navbar navbar-expand-sm bg-dark navbar-dark justify-content-center fixed-top">
   <!-- Brand -->
-  <a class="navbar-brand" href="home.html">HOME</a>
+  <a class="navbar-brand" href="<?= base_url(); ?>">HOME</a>
 
   <!-- Links -->
   <ul class="navbar-nav">
@@ -128,7 +128,7 @@
     <div class="col-sm-4">
       <h2>About Us</h2>
       <h5>Photo of Us:</h5>
-      <img src="tib.jpeg" alt="Tib" width="350" height="350">
+      <img src="<?php echo base_url() ?>assets/images/tib.jpeg" alt="Tib" width="350" height="350">
       <center><p><strong>TEKNIK INFORMATIKA 2019 B</strong></p></center>
       <p>PRAYOGI KARDANI (19051204055)</p>
       <p>MOCH. ABHIEGAIL ARGO P (19051204066)</p>
@@ -161,7 +161,7 @@
       <div id="panel"><p>Kunjungi halaman-halaman di bawah ini :</p>
       <ul class="nav nav-pills flex-column">
         <li class="nav-item">
-          <a class="nav-link active" href="home.php">HOME</a>
+          <a class="nav-link active" href="<?= base_url(); ?>">HOME</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="https://www.pertanian.go.id/">WEB KEMENTERIAN PERTANIAN RI</a>
