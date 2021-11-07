@@ -38,7 +38,7 @@
       <strong><h4 class="card-title">CONTACT US</h4></strong>
       <p class="card-text"><a href="https://www.instagram.com/manajemenpertanian/" style="color:white">Instagram</a></p>
       <p class="card-text"><a href="https://www.facebook.com/profile.php?id=100074406035233" style="color:white">Facebook</a></p>
-      <p class="card-text"><a href="<?= base_url(); ?>mahasiswa" style="color:white">Twitter</a></p>
+      <p class="card-text"><a href="https://twitter.com">Twitter</a></p>
     </div>
   </div>
 </div>
