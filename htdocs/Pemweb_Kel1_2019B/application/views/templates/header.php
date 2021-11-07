@@ -40,9 +40,9 @@
         INFORMATION
       </a>
       <div class="dropdown-menu">
-        <a class="dropdown-item" href="#">INFORMASI PASAR</a>
-        <a class="dropdown-item" href="#">MANAJEMEN PENYAKIT DAN HAMA</a>
-        <a class="dropdown-item" href="#">INFORMASI KETERSEDIAAN</a>
+        <a class="dropdown-item" href="<?= base_url(); ?>pasar">INFORMASI PASAR</a>
+        <a class="dropdown-item" href="<?= base_url(); ?>penyakit">MANAJEMEN PENYAKIT DAN HAMA</a>
+        <a class="dropdown-item" href="<?= base_url(); ?>ketersediaan">INFORMASI KETERSEDIAAN</a>
       </div>
     </li>
     <li class="nav-item dropdown">
@@ -56,10 +56,10 @@
     </li>
   <!-- Brand -->
     <li class="nav-item">
-      <a class="nav-link" href="#">BLOG</a>
+      <a class="nav-link" href="<?= base_url(); ?>blog">BLOG</a>
     </li>
     <li class="nav-item">
-      <a class="nav-link" href="#">DOCUMENTATION</a>
+      <a class="nav-link" href="<?= base_url(); ?>documentation">DOCUMENTATION</a>
     </li>
     <li class="nav-item">
       <a class="nav-link" href="<?= base_url(); ?>about">ABOUT US</a>
@@ -70,7 +70,7 @@
         DOWNLOAD
       </a>
       <div class="dropdown-menu">
-        <a class="dropdown-item" href="#">MANUAL BOOK</a>
+        <a class="dropdown-item" href="<?= base_url(); ?>manual">MANUAL BOOK</a>
       </div>
     </li>
   <!-- Search Button -->
